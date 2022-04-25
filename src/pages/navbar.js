@@ -26,9 +26,8 @@ function Navbar() {
             <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  className={`nav-link ${
-                    location.pathname === "/" ? "active" : ""
-                  }`}
+                  className={`nav-link ${location.pathname === "/" ? "active" : ""
+                    }`}
                   aria-current="page"
                   to="/"
                 >
@@ -37,9 +36,8 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  className={`nav-link ${
-                    location.pathname === "/about" ? "active" : ""
-                  }`}
+                  className={`nav-link ${location.pathname === "/about" ? "active" : ""
+                    }`}
                   to="/about"
                 >
                   About
@@ -47,9 +45,8 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  className={`nav-link ${
-                    location.pathname === "/display" ? "active" : ""
-                  }`}
+                  className={`nav-link ${location.pathname === "/display" ? "active" : ""
+                    }`}
                   to="/display"
                 >
                   Display
@@ -70,5 +67,6 @@ function Navbar() {
     </>
   );
 }
+
 
 export default Navbar;
