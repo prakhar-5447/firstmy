@@ -55,6 +55,16 @@ function Navbar() {
                   Display
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link ${
+                    location.pathname === "/childimg" ? "active" : ""
+                  }`}
+                  to="/childimg"
+                >
+                  childimg
+                </Link>
+              </li>
             </ul>
             <form className="d-flex">
               <Link className="btn btn-primary mx-1" to="/login" role="button">
