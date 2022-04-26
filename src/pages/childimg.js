@@ -1,23 +1,19 @@
 import React from "react";
-import "../style/childimg.css";
 import IMG from "../images/images.jpg";
 
-function childimg() {
+function childimg(props) {
   return (
-    
+
     <div className="box">
-        <div className="imgbox">
-            <img src={IMG} alt="no_image"/>
+      <div className="card box">
+        <div className="card-body">
+          <h4>{props.orgs.owner}</h4>
+          <p>{props.orgs.contact}</p>
+          <p>{props.orgs.orgName}</p>
         </div>
-        <div className="imgdetails">
-            <div>
-                <h1>no name</h1>
-                <li>age:none</li>
-                <li>gender: none</li>
-            </div>
-        </div>
+      </div>
     </div>
-    
+
   );
 }
 

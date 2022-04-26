@@ -1,38 +1,26 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import "../style/display.css";
+import CHILDIMG from "./childimg";
+import orgContext from "../context/Context"
 
 function Display() {
+  const context = useContext(orgContext);
+  const { org, getOrg } = context;
+  useEffect(() => {
+    getOrg()
+    // eslint-disable-next-line
+  }, [])
   return (
     <>
       <div className="container">
         <h1 className="heading">ORGANISATION</h1>
         <div className="d-flex flex-column justify-content-between">
-          <a href="childimg">
-          <div className="card box">
-            <div className="card-body">
-              <h4>org</h4>
-              <p>This is some text within a card body.</p>
-            </div>
+          <div className="row my-3">
+            {org.map((orgs) => {
+              return <CHILDIMG key={orgs._id} orgs={orgs} />
+            })}
           </div>
-          </a>
-          <div className="card box">
-            <div className="card-body">
-              <h4>org</h4>
-              <p>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div className="card box">
-            <div className="card-body">
-              <h4>org</h4>
-              <p>This is some text within a card body.</p>
-            </div>
-          </div>
-          <div className="card box">
-            <div className="card-body">
-              <h4>org</h4>
-              <p>This is some text within a card body.</p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </>
