@@ -4,7 +4,7 @@ import "../style/home.css";
 function Home() {
   return (
     <>
-<div></div>
+<div>lorem</div>
     </>
   );
 }
