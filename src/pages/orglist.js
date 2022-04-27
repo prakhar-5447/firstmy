@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Orglist(props) {
   let history = useNavigate()
   const context = useContext(orgContext);
-  const { setorgid, cid } = context;
+  const { setorgid } = context;
   const showchild = () => {
     setorgid(props.orgs._id)
     history("./child")
