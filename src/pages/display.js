@@ -1,12 +1,14 @@
 import React, { useContext, useEffect } from "react";
 import "../style/display.css";
-import CHILDIMG from "./childimg";
+import ORGLIST from "./orglist";
 import orgContext from "../context/Context"
 
 function Display() {
   const context = useContext(orgContext);
-  const { org, getOrg } = context;
+  const { org, setchildvalue, getOrg, setorgid } = context;
   useEffect(() => {
+    setorgid("")
+    setchildvalue()
     getOrg()
     // eslint-disable-next-line
   }, [])
@@ -17,10 +19,9 @@ function Display() {
         <div className="d-flex flex-column justify-content-between">
           <div className="row my-3">
             {org.map((orgs) => {
-              return <CHILDIMG key={orgs._id} orgs={orgs} />
+              return <ORGLIST key={orgs._id} orgs={orgs} />
             })}
           </div>
-         
         </div>
       </div>
     </>
