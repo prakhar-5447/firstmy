@@ -1,18 +1,23 @@
 import React from "react";
+import IMG from "../images/images.jpg"
+import "../style/childcard.css"
 
 function childcard(props) {
   return (
-
-    <div className="box">
-      <div className="card box">
-        <div className="card-body">
-          <h4>{props.childs.name}</h4>
-          <p>{props.childs.gender}</p>
-          <p>{props.childs.age}</p>
+    <>
+      <div className="box">
+        <div className="imgbox">
+          <img src={IMG} alt="no_image" />
+        </div>
+        <div className="imgdetails">
+          <div>
+            <h1>{props.childs.name}</h1>
+            <li>{props.childs.gender}</li>
+            <li>{props.childs.age}</li>
+          </div>
         </div>
       </div>
-    </div>
-
+    </>
   );
 }
 

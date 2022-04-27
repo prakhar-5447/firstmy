@@ -223,7 +223,7 @@ hr {
 }
 
 .bg3-img {
-  filter: brightness(40%);
+  filter: brightness(100%);
   width: auto;
   background-size: cover;
   background-repeat: no-repeat;

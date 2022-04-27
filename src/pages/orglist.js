@@ -12,20 +12,22 @@ function Orglist(props) {
     history("./child")
   }
   return (
-
-    <div className="box">
-      <div className="card box">
-        <div className="card-body">
-          <img src={IMG} alt="" />
+<>
+<div className="box">
+        <div className="imgbox">
+          <img src={IMG} alt="no_image" />
+        </div>
+        <div className="imgdetails">
+          <div>
           <h4>{props.orgs.owner}</h4>
           <h4>{props.orgs._id}</h4>
           <p>{props.orgs.contact}</p>
           <p>{props.orgs.orgName}</p>
           <button onClick={showchild} >MORE</button>
+          </div>
         </div>
       </div>
-    </div>
-
+</>
   );
 }
 

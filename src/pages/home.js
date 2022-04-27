@@ -15,7 +15,7 @@ function Home() {
             healing power of God, family, and community.
           </p>
           <br />
-          <button className="Explore btn-primary btn-dark btn-lg"><Link className="text-white p-3 t-none"to="./display">Explore</Link></button>
+          <button className="Explore btn-primary btn-dark btn-lg"><Link className="text-white p-3 t-none"to="./display">Explore &#8594;</Link></button>
         </div>
       </div>
     </>
