@@ -7,7 +7,7 @@ function childcard(props) {
     <>
       <div className="box">
         <div className="imgbox">
-          <img src={IMG} alt="no_image" />
+          <img src="" alt="no_image" />
         </div>
         <div className="imgdetails">
           <div>

@@ -23,7 +23,7 @@ function child() {
             <div className="container">
                 <h1 className="heading">ORGANISATION</h1>
                 <div className="d-flex flex-column justify-content-between">
-                    <div className="row my-3">
+                    <div className="d-flex row my-3">
                         {child.map((childs) => {
                             return <CHILDCARD key={childs._id} childs={childs} />
                         })}
