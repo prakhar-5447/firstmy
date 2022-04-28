@@ -1,13 +1,13 @@
 import React from "react";
 import IMG from "../images/images.jpg"
-import "../style/childcard.css"
+import "../style/child.css"
 
 function childcard(props) {
   return (
     <>
       <div className="box">
         <div className="imgbox">
-          <img src="" alt="no_image" />
+          <img src={IMG} alt="no_image" />
         </div>
         <div className="imgdetails">
           <div>

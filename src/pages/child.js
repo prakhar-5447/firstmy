@@ -22,12 +22,12 @@ function child() {
         <>
             <div className="container">
                 <h1 className="heading">ORGANISATION</h1>
-                <div className="d-flex flex-column justify-content-between">
-                    <div className="d-flex row my-3">
-                        {child.map((childs) => {
-                            return <CHILDCARD key={childs._id} childs={childs} />
-                        })}
-                    </div>
+                <div className="row">
+                    {child.map((childs) => {
+                        return <div className="col-md-4">
+                            <CHILDCARD key={childs._id} childs={childs} />
+                        </div>
+                    })}
                 </div>
             </div>
         </>

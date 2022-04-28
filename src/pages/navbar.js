@@ -7,7 +7,7 @@ function Navbar() {
   let location = useLocation();
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-black">
         <div className="container-fluid">
           <div className="navbar-brand">
             <Link to="/">
@@ -19,10 +19,10 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav text-white me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link
-                    className={`nav-link  ${location.pathname === "/" ? "active" : ""
+                    className={`nav-link text-white ${location.pathname === "/" ? "active" : ""
                       }`}
                     aria-current="page"
                     to="/"
@@ -32,7 +32,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={`nav-link  ${location.pathname === "/about" ? "active" : ""
+                    className={`nav-link text-white ${location.pathname === "/about" ? "active" : ""
                       }`}
                     to="/about"
                   >
@@ -41,7 +41,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={`nav-link ${location.pathname === "/display" ? "active" : ""
+                    className={`nav-link text-white ${location.pathname === "/display" ? "active" : ""
                       }`}
                     to="/display"
                   >
