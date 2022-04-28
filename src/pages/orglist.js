@@ -17,7 +17,7 @@ function Orglist(props) {
         <ul className="d-flex justify-content-center">
           <li className="cards_item d-flex justify-content-center w-75">
             <div className="card d-flex flex-row">
-              <div className="card_image"><img src="https://picsum.photos/500/300/?image=10" width="400px" alt="" /></div>
+              <div className="card_image"><img src="https://picsum.photos/500/300/?image=10" width="300px" height="250" alt="" /></div>
               <div className="card_content d-flex flex-column  justify-content-between">
                 <div>
                   <h2 className="card_title">{props.orgs.orgName}</h2>

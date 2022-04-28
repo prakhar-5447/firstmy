@@ -24,9 +24,7 @@ function child() {
                 <h1 className="heading">ORGANISATION</h1>
                 <div className="row">
                     {child.map((childs) => {
-                        return <div className="col-md-4">
-                            <CHILDCARD key={childs._id} childs={childs} />
-                        </div>
+                        return <CHILDCARD key={childs._id} childs={childs} />
                     })}
                 </div>
             </div>
