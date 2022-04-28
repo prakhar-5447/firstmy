@@ -1,0 +1,482 @@
+
+/* first-my-html */
+
+/* navbar */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    border-radius: 10px;
+}
+.nav-item{
+    padding:0 15px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1rem;
+}
+
+/* slide */
+
+.Explore{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+.Explore:hover{
+    color: #fff;
+}
+.mark{
+    font-size: 8rem;
+    opacity: 0.5;
+}
+.quotation1{
+    font-family: 'Josefin Slab', serif;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 50%;
+    z-index: 2;
+}
+.A1{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.A1-2{
+   position: absolute;
+   top: 200px;
+   right: 450px;
+}
+.quotation2{
+    font-family: 'Josefin Slab', serif;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 50%;
+    z-index: 2;
+}
+.B1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.B1-2{
+    position: absolute;
+    top: 200px;
+    right: 500px;
+}
+.quotation3{
+    font-family: 'Josefin Slab', serif;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 50%;
+    z-index: 2;
+}
+.C1{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.C1-2{
+    position: absolute;
+    top: 150px;
+    right: 350px;
+}
+.sub-t{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: #F900BF;
+}
+
+/* slide-bar */
+
+.d-block{
+    position: relative;
+    border-radius: 10px;
+    
+}
+.bar{
+    position: absolute;
+    width: 97%;
+    border-radius: 10px;
+    top: 730px;
+    text-align: center;
+    color: #fff;
+}
+.bar1{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #F900BF;
+}
+.bar2{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #FF0000;
+}
+.bar3{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #FF4301;
+}
+
+/* kids */
+
+.Emma{
+    border-radius: 10px;
+    width: 430px;
+}
+.Zayn{
+    position: absolute;
+    left:20px;
+    border-radius: 10px;
+    width: 430px;
+}
+.Riana{
+    position: absolute;
+    left: 0px;
+    width: 435px;
+    border-radius: 10px;
+}
+.kid1{
+    position: absolute;
+    left: 100px;
+    top: 1100px;
+    color: #fff;
+    font-family: 'Sacramento',sans-serif;
+    font-size: 5rem;
+}
+.kid2{
+    position: absolute;
+    left: 600px;
+    top: 1100px;
+    color:#fff;
+    font-family: 'Sacramento',sans-serif;
+    font-size: 5rem;
+}
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  .image {
+    position: relative;
+    top: -10px;
+    display: block;
+    width: 100%;
+    height: 285px;
+    border-radius: 10px;
+  }
+  
+  .more {
+    position: relative; 
+    bottom: 85px;
+    border-radius: 10px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container:hover .more {
+    opacity: 1;
+  }
+.feat1{
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    width: 20%;
+    font-size: 0.7rem;
+    color: #fff;
+}
+.feat2{
+    position: absolute;
+    top: 1200px;
+    left: 550px;
+    width: 20%;
+    font-size:0.7rem;
+    color: #fff;
+}
+
+/* donate */
+
+.container{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.pricing-col{
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.donate-head{
+    background-color: #383838;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0;
+    color: #fff;
+}
+.select{
+    border: 2px solid;
+    margin-bottom: 5px;
+}
+.card-header{
+    border: 2px solid;
+    margin-top: 5px;
+    font-family:'Josefin Slab', serif ;
+    font-size: 4rem;
+}
+.quote{
+    font-family: 'Sacramento';
+    font-size: 2.5rem;
+}
+
+/* contact */
+
+#footer{
+    padding: 20px 0;
+    margin: 20px 10px 0;
+    background-color: #383838;
+    color: #fff;
+    border-radius: 10px;
+}
+.lorem{
+    margin-left: 40px;
+    width: 70%;
+}
+
+/* login-page-html */
+
+.login{
+    border-radius: 10px;
+}
+.login-id{
+    position: absolute;
+    width: 30%;
+    top: 200px;
+    left: 500px;
+}
+#foot{
+    position: relative;
+    top: -215px;
+    padding: 20px 0;
+    background-color: #383838;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+/* register-page-html */
+
+.h-100{
+    border-radius: 10px;
+  }
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+    top: 13px;
+  }
+  #register{
+      font-family: 'Josefin Slab', serif ;
+  }
+  #register-foot{
+    color: #fff;
+}
+
+/* Admin html */
+
+.girl1-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.girl1-info{
+    position: relative;
+    bottom: 280px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+.girl2-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.girl2-info{
+    position: relative;
+    bottom: 285px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+.row-1a{
+    height: 350px;
+}
+.row-1b{
+    height: 350px;
+}
+.boy1-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.boy1-info{
+    position: relative;
+    bottom: 285px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+.boy2-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.boy2-info{
+    position: relative;
+    bottom: 285px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.row-2a{
+    height: 350px;
+}
+.row-2b{
+    height: 350px;
+}
+.boy2-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.boy2-info{
+    position: relative;
+    bottom: 285px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.row-2a{
+    height: 350px;
+}
+.row-2b{
+    height: 350px;
+}
+.girl3-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.girl3-info{
+    position: relative;
+    bottom: 285px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+.boy3-img{
+    border-radius: 10px;
+    border: 2px solid;
+}
+.boy3-info{
+    position: relative;
+    bottom: 285px;
+    left: 230px;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.row-3a{
+    height: 350px;
+}
+.row-3b{
+    height: 350px;
+}
+
+.add{
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+.add-img{
+    margin-left: -10px;
+    margin-top: -5px;
+}
+.plus{
+    height: 200px;
+    width: 200px;
+    margin-left: -35px;
+    margin-top: -20px;
+}
+form{
+    font-family: 'Josefin Slab', serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.form-img{
+    position: absolute;
+    top: 75px;
+    border-radius: 10px;
+    margin-left: -13px;
+}
+.form-box{
+    position: relative;
+    top: -40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+.photo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 150px;
+    left: 100px;
+}
+.sign{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    color: #fff;
+}
+.bt{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.sign-img{
+    border-radius: 10px;
+}
+.sign-form{
+    position: absolute;
+    top: 800px;
+    left: 600px;
+}
+.member{
+    position: absolute;
+    color: #fff;
+    top: 700px;
+    left: 550px;
+}
+#sign-foot{
+    border-radius: 10px;
+    background-color: #383838;
+    width: 98%;
+    color: #fff;
+    margin-left: 12px;
+    position: relative;
+    bottom: 210px;
+    padding: 20px;
+    
+}
