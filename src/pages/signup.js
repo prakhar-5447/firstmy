@@ -66,7 +66,90 @@ const Login = (props) => {
             </form>
         </div> */}
        
+ <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" height="50px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #fff; font-size: 1.5rem;" href="firstmy.html"><i
+                                class="fa fa-home" aria-hidden="true"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #fff; font-size: 1.5rem;" href="firstmy.html"><i 
+                            class="fa fa-address-book-o" aria-hidden="true"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #fff; font-size: 1.5rem;" href="firstmy.html"><i
+                                class="fa fa-money" aria-hidden="true"></i> Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #fff; font-size: 1.5rem;" href="firstmy.html"><i
+                                class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #fff; font-size: 1.5rem;" href="firstmy.html"><i 
+                            class="fa fa-child" aria-hidden="true"></i> Meet our kids</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="button">
+                <button class="btn btn-outline-secondary" type="button"><a href="admin.html">Admin</a></button>
+                <button class="btn btn-outline-secondary" type="button"><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></button>
+            </div>
+        </nav>
+    </div>
 
+    <section id="sign-up">
+           <div class="container-fluid">
+               <img class="sign-img" src="/images/sign.jpg" alt="" width="100%">
+           </div>
+            <button class="btn btn-secondary btn-dark btn-lg bt">Sign</button>
+           <form class="sign" action="">
+               <label for="">Enter your Name</label>
+               <input type="text"><br><br>
+               <label for="">Enter your Email</label>
+               <input type="email"><br><br>
+               <label for="">Enter your password</label>
+               <input type="password" name="" id=""><br><br>
+               <label for="">Repeat password</label>
+               <input type="password">
+           </form>
+           <button class="btn btn-lg btn-dark btn-secondary sign-form"><a href="firstmy.html">ENTER</a></button>
+    <span class="member"><p>Already a member?<a href="login.html">Login</a></p></span>
+        </section>
+        
+        <footer id="sign-foot">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="lorem">
+                            <h1>Let's Talk</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta pariatur nihil veniam fuga
+                                culpa ab eius in animi molestiae, dolorum qui corporis distinctio quo minus fugit
+                                perferendis quis autem delectus!</p>
+                            <button type="button" class="btn btn-lg btn-light"><a href="register.html">Be a Member</a></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social">
+                            <h1>Contact Us:</h1>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p>Email : firstcry@gmail.com</p>
+                            <p>Phone no. : 6265915363</p>
+                            <p>© Copyright TinDog</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
        
        </>
     )
