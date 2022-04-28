@@ -17,7 +17,7 @@ function Display() {
       <div className="container">
         <h1 className="heading">ORGANISATION</h1>
         <div className="d-flex flex-column justify-content-between">
-          <div className="row my-3">
+          <div className="row d-flex justify-content-center my-3">
             {org.map((orgs) => {
               return <ORGLIST key={orgs._id} orgs={orgs} />
             })}
