@@ -55,24 +55,16 @@
   width: 650px;
 }
 
-.t-none {
-  text-decoration: none;
-}
-
 .Explore {
-  border-radius: 30px;
+  text-decoration: none;
+  border-radius: 7px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 25px;
-  font-weight: bolder;
-  background-color: rgb(246, 251, 214);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(61, 61, 60);
 }
 
 .Explore:hover {
   background-color: black;
-  color: white;
   border-style: none;
 }
-
-
-
-
