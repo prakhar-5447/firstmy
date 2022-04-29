@@ -1,12 +1,18 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import orgContext from "../context/Context"
 import CHILDITEM from './childItem';
+import { useNavigate } from 'react-router-dom'
 import ADDCHILD from "./addChild";
 
 const admin = () => {
     const context = useContext(orgContext);
     const { child, getchilern, updatechild } = context;
+    let history = useNavigate();
+
     useEffect(() => {
+        if (!localStorage.getItem('token')) {
+            history("../login");
+        }
         let token = localStorage.getItem("token")
         getchilern(token)
         // eslint-disable-next-line

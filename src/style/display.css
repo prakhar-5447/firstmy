@@ -36,7 +36,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  color: white;
 }
 
 .cards {
@@ -76,7 +76,7 @@ h1 {
 .card_content {
   padding: 1rem;
   width: 800px;
-  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+  background: linear-gradient(to bottom left, #aa8def 40%, #9efcff 100%);
 }
 
 .card_title {

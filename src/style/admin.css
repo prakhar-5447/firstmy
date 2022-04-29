@@ -1,29 +1,10 @@
-
 /* first-my-html */
 
 /* navbar */
 
-.navbar{
-    position: fixed;
-    width: 100%;
-    border-radius: 10px;
-}
-.nav-item{
-    padding:0 15px;
-    font-family: 'Josefin Slab', serif;
-    font-size: 1rem;
-}
+/* 
 
-/* slide */
 
-.Explore{
-    position: absolute;
-    top: 250px;
-    left: 200px;
-}
-.Explore:hover{
-    color: #fff;
-}
 .mark{
     font-size: 8rem;
     opacity: 0.5;
@@ -88,7 +69,7 @@
     color: #F900BF;
 }
 
-/* slide-bar */
+
 
 .d-block{
     position: relative;
@@ -119,7 +100,7 @@
     color: #FF4301;
 }
 
-/* kids */
+
 
 .Emma{
     border-radius: 10px;
@@ -173,7 +154,7 @@
     bottom: 85px;
     border-radius: 10px; 
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     width: 100%;
     transition: .5s ease;
@@ -204,7 +185,7 @@
     color: #fff;
 }
 
-/* donate */
+
 
 .container{
     position: relative;
@@ -241,8 +222,6 @@
     font-size: 2.5rem;
 }
 
-/* contact */
-
 #footer{
     padding: 20px 0;
     margin: 20px 10px 0;
@@ -255,7 +234,7 @@
     width: 70%;
 }
 
-/* login-page-html */
+
 
 .login{
     border-radius: 10px;
@@ -275,7 +254,6 @@
     border-radius: 10px;
   }
 
-/* register-page-html */
 
 .h-100{
     border-radius: 10px;
@@ -296,7 +274,6 @@
     color: #fff;
 }
 
-/* Admin html */
 
 .girl1-img{
     border-radius: 10px;
@@ -479,4 +456,4 @@ form{
     bottom: 210px;
     padding: 20px;
     
-}
+} */
