@@ -17,10 +17,10 @@ const Login = (props) => {
     //     });
     //     const json = await response.json()
     //     console.log(json);
-    //     if (json.authtoken !== "") {
+    //     if (json.success) {
     //         // Save the auth token and redirect
     //         localStorage.setItem('token', json.authtoken);
-    //         history("/");
+    //         history("../admin");
 
     //     }
     //     else {
@@ -32,41 +32,46 @@ const Login = (props) => {
     //     setCredentials({ ...credentials, [e.target.name]: e.target.value })
     // }
 
+    // const redirecttologin = () => {
+    //         history("../login");
+    // }
+
     return (
-       <>
-        {/* <div>
+        <>
+            {/* <div>
             <form onSubmit={handleSubmit}>
-                <div className="mb-3">
-                    <label htmlFor="orgName" className="form-label">orgName</label>
-                    <input type="text" className="form-control" value={credentials.orgName} onChange={onChange} id="orgName" name="orgName" aria-describedby="orgNameHelp" />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="owner" className="form-label">owner</label>
+            <div className="mb-3">
+            <label htmlFor="orgName" className="form-label">orgName</label>
+            <input type="text" className="form-control" value={credentials.orgName} onChange={onChange} id="orgName" name="orgName" aria-describedby="orgNameHelp" />
+            </div>
+            <div className="mb-3">
+            <label htmlFor="owner" className="form-label">owner</label>
                     <input type="text" className="form-control" value={credentials.owner} onChange={onChange} name="owner" id="owner" aria-describedby='ownerHelp' />
-                </div>
-                <div className="mb-3">
+                    </div>
+                    <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>
                     <input type="email" className="form-control" value={credentials.email} onChange={onChange} id="email" name="email" aria-describedby="emailHelp" />
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                </div>
+                    </div>
                 <div className="mb-3">
                     <label htmlFor="password" className="form-label">Password</label>
                     <input type="password" className="form-control" value={credentials.password} onChange={onChange} name="password" id="password" suggested="current-password" />
-                </div>
-                <div className="mb-3">
+                    </div>
+                    <div className="mb-3">
                     <label htmlFor="contact" className="form-label">contact</label>
                     <input type="text" className="form-control" value={credentials.contact} onChange={onChange} id="contact" name="contact" aria-describedby="contactHelp" />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="address" className="form-label">address</label>
-                    <input type="text" className="form-control" value={credentials.address} onChange={onChange} name="address" id="address" />
+                <label htmlFor="address" className="form-label">address</label>
+                <input type="text" className="form-control" value={credentials.address} onChange={onChange} name="address" id="address" />
                 </div>
 
                 <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
+                </form>
+                // <p>Already have a accoumt<button onClick="redriecttologin"></button></p>
         </div> */}
-       
- <div class="container-fluid">
+
+            {/* <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" height="50px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -149,9 +154,9 @@ const Login = (props) => {
                     </div>
                 </div>
             </div>
-        </footer>
-       
-       </>
+        </footer> */}
+
+        </>
     )
 }
 
