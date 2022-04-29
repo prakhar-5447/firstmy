@@ -24,7 +24,7 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
-            <div className="navbar-nav d-flex justify-content-between">
+            <div className="navbar-nav d-flex justify-content-between" style={{width:"100%"}}>
               <ul className="navbar-nav text-white me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link
@@ -55,12 +55,20 @@ function Navbar() {
                   </Link>
                 </li>
               </ul>
-              <form> 
-                <button className={`btn btn-primary  ${location.pathname === "/admin" ? "" : "d-none"
-                  }`} onClick={logout}>
-                  Logout
-                </button>
-              </form>
+              <div>
+                <form>
+                  <button className={`btn btn-primary  ${location.pathname === "/admin" ? "" : "d-none"
+                    }`} onClick={logout}>
+                    Logout
+                  </button>
+                </form>
+                <form>
+                  <button className={`btn btn-primary ${location.pathname !== "/admin" ? "" : "d-none"
+                    }`} style={{filter:"invert(1)"}}>
+                    DONATE
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
