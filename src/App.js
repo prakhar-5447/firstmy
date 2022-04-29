@@ -10,6 +10,7 @@ import CHILD from "./pages/child";
 import ORGLIST from "./pages/orglist";
 import Org from "./context/orgContext";
 import ADMIN from "./pages/admin";
+import DONATE from "./pages/donate";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/login" element={< LOGIN />}></Route>
             <Route exact path="/admin" element={< ADMIN />}></Route>
             <Route exact path="/display/child" element={< CHILD />}></Route>
+            <Route exact path="/donate" element={< DONATE />}></Route>
           </Routes>
         </Router>
       </Org>

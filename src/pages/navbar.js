@@ -11,6 +11,9 @@ function Navbar() {
     localStorage.removeItem('token')
     history("../login");
   }
+  const donate = () => {
+    history("../donate");
+  }
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-black">
@@ -64,7 +67,7 @@ function Navbar() {
                 </form>
                 <form>
                   <button className={`btn btn-primary ${location.pathname !== "/admin" ? "" : "d-none"
-                    }`} style={{filter:"invert(1)"}}>
+                    }`} style={{filter:"invert(1)"}} onClick={donate}>
                     DONATE
                   </button>
                 </form>
