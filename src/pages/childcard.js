@@ -1,11 +1,11 @@
 import React from "react";
-import IMG from "../images/images.jpg"
+import IMG from "../images/childimg.jpg"
 import "../style/child.css"
 
 function childcard(props) {
   return (
     <>
-      <div className="box">
+      <div className="box m-4">
         <div className="imgbox">
           <img src={IMG} alt="no_image" />
         </div>

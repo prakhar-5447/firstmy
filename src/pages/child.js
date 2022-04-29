@@ -22,7 +22,7 @@ function child() {
         <>
             <div className="container">
                 <h1 className="heading">ORGANISATION</h1>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     {child.map((childs) => {
                         return <CHILDCARD key={childs._id} childs={childs} />
                     })}
