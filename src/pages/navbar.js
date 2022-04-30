@@ -31,7 +31,7 @@ function Navbar() {
               <ul className="navbar-nav text-white me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link
-                    className={`nav-link text-white ${location.pathname === "/" ? "active" : ""
+                    className={`nav-link  ${location.pathname === "/" ? "text-white" : "text-secondary"
                       }`}
                     aria-current="page"
                     to="/"
@@ -41,7 +41,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={`nav-link text-white ${location.pathname === "/about" ? "active" : ""
+                    className={`nav-link  ${location.pathname === "/about" ? "text-white" : "text-secondary"
                       }`}
                     to="/about"
                   >
@@ -50,7 +50,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={`nav-link text-white ${location.pathname === "/display" ? "active" : ""
+                    className={`nav-link  ${location.pathname === "/display" ? "text-white" : "text-secondary"
                       }`}
                     to="/display"
                   >
@@ -61,7 +61,7 @@ function Navbar() {
               <div>
                 <form>
                   <button className={`btn btn-primary  ${location.pathname === "/admin" ? "" : "d-none"
-                    }`} onClick={logout}>
+                    }`} style={{filter:"invert(1)"}} onClick={logout}>
                     Logout
                   </button>
                 </form>
