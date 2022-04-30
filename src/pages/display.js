@@ -15,7 +15,7 @@ function Display() {
   return (
     <>
       <div className="container">
-        <h1 className="heading">ORGANISATIONS</h1>
+        <h1 className="heading text-center mt-5">ORGANISATIONS</h1>
         <div className="d-flex flex-column">
           <div className="row d-flex my-3">
             {org.map((orgs) => {
