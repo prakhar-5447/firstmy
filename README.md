@@ -1,5 +1,5 @@
 # Team
-Priyanshu vaishnow |
+Priyanshu Vaishnow |
 Aditi Sao |
 Shashwat Gupta |
 Prakhar Sahu |
